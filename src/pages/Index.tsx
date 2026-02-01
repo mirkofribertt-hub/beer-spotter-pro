@@ -1,6 +1,7 @@
 import { Clock, MapPin, Phone, Star, Utensils, UtensilsCrossed, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import SpanferkelPopup from "@/components/SpanferkelPopup";
 import gebaeude from "@/assets/gebaeude.jpeg";
 import haehnchenTeller from "@/assets/haehnchen-teller.jpeg";
 import haehnchenKueche from "@/assets/haehnchen-kueche.jpeg";
@@ -10,6 +11,7 @@ import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SpanferkelPopup />
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div 
