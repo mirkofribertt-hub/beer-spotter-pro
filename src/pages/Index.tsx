@@ -160,16 +160,16 @@ const Index = () => {
       </section>
 
       {/* Spezialangebote */}
-      <section className="py-16 px-4 bg-amber-50 dark:bg-amber-950/20">
+      <section className="py-16 px-4 bg-card border-y border-primary/10">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-bold text-amber-700 dark:text-amber-400 mb-6">Spezialangebote</h3>
-          <p className="text-lg text-amber-800 dark:text-amber-300 mb-2">Ideal für kleine Feste zu Hause!</p>
+          <h3 className="text-3xl font-bold text-primary mb-6">Spezialangebote</h3>
+          <p className="text-lg text-muted-foreground mb-2">Ideal für kleine Feste zu Hause!</p>
           <div className="space-y-3 text-muted-foreground mt-6">
-            <p><strong>Schweinebraten, Schweinenacken, Rollbraten</strong> (ab 10 Portionen)</p>
-            <p><strong>Ente im Backofen</strong></p>
-            <p><strong>Spanferkel am Spieß auf Holz gegrillt</strong> mit Krautsalat und selbstgebackenem Brot (ab 15 Portionen)</p>
+            <p><strong className="text-foreground">Schweinebraten, Schweinenacken, Rollbraten</strong> (ab 10 Portionen)</p>
+            <p><strong className="text-foreground">Ente im Backofen</strong></p>
+            <p><strong className="text-foreground">Spanferkel am Spieß auf Holz gegrillt</strong> mit Krautsalat und selbstgebackenem Brot (ab 15 Portionen)</p>
           </div>
-          <p className="text-amber-600 font-bold text-xl mt-6">Preise auf Anfrage</p>
+          <p className="text-primary font-bold text-xl mt-6">Preise auf Anfrage</p>
         </div>
       </section>
 
