@@ -7,17 +7,14 @@ import haehnchenTeller from "@/assets/haehnchen-teller.jpeg";
 import haehnchenKueche from "@/assets/haehnchen-kueche.jpeg";
 import terrasse from "@/assets/terrasse.jpeg";
 import gastraum from "@/assets/gastraum.jpeg";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <SpanferkelPopup />
       {/* Hero Section */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${gebaeude})` }}
-        />
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+        backgroundImage: `url(${gebaeude})`
+      }} />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -54,11 +51,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl ring-4 ring-amber-500/20">
-                <img 
-                  src={haehnchenTeller}
-                  alt="Frittiertes halbes Hähnchen auf Teller"
-                  className="w-full h-full object-cover"
-                />
+                <img src={haehnchenTeller} alt="Frittiertes halbes Hähnchen auf Teller" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-amber-500 text-amber-950 px-6 py-3 rounded-2xl shadow-xl">
                 <span className="text-2xl font-bold">Unsere Spezialität</span>
@@ -90,13 +83,9 @@ const Index = () => {
       <section className="py-12 px-4 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="rounded-3xl overflow-hidden shadow-xl">
-            <img 
-              src={haehnchenKueche}
-              alt="Frisch frittierte Hähnchen in der Küche"
-              className="w-full h-80 object-cover"
-            />
+            <img src={haehnchenKueche} alt="Frisch frittierte Hähnchen in der Küche" className="w-full h-80 object-cover" />
           </div>
-          <p className="text-center text-muted-foreground mt-4 text-lg">Frisch aus unserer Küche – jeden Sonntag für Sie zubereitet</p>
+          <p className="text-center text-muted-foreground mt-4 text-lg">Frisch aus unserer Küche – für Sie zubereitet</p>
         </div>
       </section>
 
@@ -203,19 +192,11 @@ const Index = () => {
           <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Unser Lokal</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img 
-                src={gastraum}
-                alt="Gemütlicher Gastraum"
-                className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300"
-              />
+              <img src={gastraum} alt="Gemütlicher Gastraum" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" />
               <p className="text-center py-3 bg-muted text-muted-foreground font-medium">Gemütlicher Gastraum</p>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg">
-              <img 
-                src={terrasse}
-                alt="Sonnige Terrasse"
-                className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300"
-              />
+              <img src={terrasse} alt="Sonnige Terrasse" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" />
               <p className="text-center py-3 bg-muted text-muted-foreground font-medium">Sonnige Terrasse</p>
             </div>
           </div>
@@ -296,17 +277,9 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <h3 className="text-3xl font-bold text-center mb-8 text-foreground">So finden Sie uns</h3>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-primary/20">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8!2d8.4183!3d49.1847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797b5c5e7b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sHuttenheimer%20Str.%207%2C%2076706%20Dettenheim!5e0!3m2!1sde!2sde!4v1706000000000!5m2!1sde!2sde"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Standort Gaststätte Alte Brauerei"
-              className="w-full"
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8!2d8.4183!3d49.1847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797b5c5e7b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sHuttenheimer%20Str.%207%2C%2076706%20Dettenheim!5e0!3m2!1sde!2sde!4v1706000000000!5m2!1sde!2sde" width="100%" height="400" style={{
+            border: 0
+          }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Standort Gaststätte Alte Brauerei" className="w-full" />
           </div>
           <p className="text-center text-muted-foreground mt-4">
             Huttenheimer Str. 7, 76706 Dettenheim (Rußheim)
@@ -322,40 +295,29 @@ const Index = () => {
           <p className="text-amber-400/50 text-sm">© 2024 Gaststätte Alte Brauerei Rußheim. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
-const MenuItem = ({ 
-  name, 
-  description, 
-  price, 
-  badge, 
-  isNew 
-}: { 
-  name: string; 
-  description?: string; 
-  price: string; 
+const MenuItem = ({
+  name,
+  description,
+  price,
+  badge,
+  isNew
+}: {
+  name: string;
+  description?: string;
+  price: string;
   badge?: string;
   isNew?: boolean;
-}) => (
-  <div className="flex justify-between items-start py-3 border-b border-muted last:border-0">
+}) => <div className="flex justify-between items-start py-3 border-b border-muted last:border-0">
     <div className="flex-1">
       <div className="flex items-center gap-2">
-        {isNew && (
-          <span className="bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded">NEU</span>
-        )}
+        {isNew && <span className="bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded">NEU</span>}
         <span className="font-medium text-foreground">{name}</span>
-        {badge && (
-          <span className="text-amber-600 text-sm font-medium">– {badge}</span>
-        )}
+        {badge && <span className="text-amber-600 text-sm font-medium">– {badge}</span>}
       </div>
-      {description && (
-        <p className="text-muted-foreground text-sm mt-0.5">{description}</p>
-      )}
+      {description && <p className="text-muted-foreground text-sm mt-0.5">{description}</p>}
     </div>
     <span className="font-bold text-amber-600 ml-4">{price}</span>
-  </div>
-);
-
+  </div>;
 export default Index;
