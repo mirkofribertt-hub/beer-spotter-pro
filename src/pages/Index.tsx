@@ -32,13 +32,17 @@ const Index = () => {
             Tradition trifft Geschmack – Berühmt für unsere knusprigen halben Hähnchen
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-amber-950 font-semibold text-lg px-8">
-              <Phone className="w-5 h-5 mr-2" />
-              Jetzt anrufen
-            </Button>
-            <Button size="lg" variant="outline" className="border-amber-400/50 text-amber-200 hover:bg-amber-800/50 text-lg px-8">
-              Speisekarte ansehen
-            </Button>
+            <a href="tel:+4917647289436">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8">
+                <Phone className="w-5 h-5 mr-2" />
+                Jetzt anrufen
+              </Button>
+            </a>
+            <a href="#speisekarte">
+              <Button size="lg" variant="outline" className="border-primary/50 text-foreground hover:bg-primary/20 text-lg px-8">
+                Speisekarte ansehen
+              </Button>
+            </a>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
