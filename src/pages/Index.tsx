@@ -173,6 +173,30 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Über uns Section */}
+      <section className="py-20 px-4 bg-muted/30">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-foreground mb-6">Das sind wir</h2>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+            Die Gaststätte Alte Brauerei ist ein familiengeführtes Restaurant mit langer Tradition in Rußheim. 
+            Seit vielen Jahren verwöhnen wir unsere Gäste mit herzhafter, hausgemachter Küche und einer 
+            gemütlichen Atmosphäre. Bei uns wird Gastfreundschaft großgeschrieben – kommen Sie vorbei und 
+            werden Sie Teil unserer Geschichte!
+          </p>
+          <div className="flex flex-wrap justify-center gap-6 mt-8">
+            <div className="bg-card border border-primary/20 rounded-xl px-6 py-4">
+              <p className="text-primary font-bold text-lg">🏠 Familiengeführt</p>
+            </div>
+            <div className="bg-card border border-primary/20 rounded-xl px-6 py-4">
+              <p className="text-primary font-bold text-lg">💵 Nur Barzahlung</p>
+            </div>
+            <div className="bg-card border border-primary/20 rounded-xl px-6 py-4">
+              <p className="text-primary font-bold text-lg">🎉 Private Veranstaltungen</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Gallery Section */}
       <section className="py-20 px-4 bg-background">
         <div className="max-w-6xl mx-auto">
@@ -227,7 +251,7 @@ const Index = () => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Montag</span>
-                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                    <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Dienstag</span>
@@ -239,15 +263,15 @@ const Index = () => {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Donnerstag</span>
-                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                    <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Freitag</span>
-                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                    <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Samstag</span>
-                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                    <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
                   </div>
                 </div>
               </CardContent>
