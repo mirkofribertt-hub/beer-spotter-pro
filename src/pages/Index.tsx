@@ -199,10 +199,10 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Besuchen Sie uns</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="bg-card border-amber-200/20 hover:shadow-lg transition-shadow">
+            <Card className="bg-card border-primary/20 hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-14 h-14 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-7 h-7 text-amber-600" />
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="w-7 h-7 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2 text-foreground">Adresse</h4>
                 <p className="text-muted-foreground">Huttenheimer Str. 7</p>
@@ -210,21 +210,49 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-amber-200/20 hover:shadow-lg transition-shadow">
-              <CardContent className="p-6 text-center">
-                <div className="w-14 h-14 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-7 h-7 text-amber-600" />
+            <Card className="bg-card border-primary/20 hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-7 h-7 text-primary" />
                 </div>
-                <h4 className="font-semibold text-lg mb-2 text-foreground">Öffnungszeiten</h4>
-                <p className="text-muted-foreground">Sonntag: 11:30 - 22:00</p>
-                <p className="text-muted-foreground text-sm mt-1">Mo-Sa: Ruhetag</p>
+                <h4 className="font-semibold text-lg mb-4 text-foreground text-center">Öffnungszeiten</h4>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Sonntag</span>
+                    <span className="text-foreground">11:30 – 21:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Montag</span>
+                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Dienstag</span>
+                    <span className="text-destructive">Geschlossen</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Mittwoch</span>
+                    <span className="text-foreground">17:00 – 21:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Donnerstag</span>
+                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Freitag</span>
+                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Samstag</span>
+                    <span className="text-foreground text-right text-xs">10:30–14:00, 17:00–21:00</span>
+                  </div>
+                </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-card border-amber-200/20 hover:shadow-lg transition-shadow">
+            <Card className="bg-card border-primary/20 hover:shadow-lg transition-shadow">
               <CardContent className="p-6 text-center">
-                <div className="w-14 h-14 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-7 h-7 text-amber-600" />
+                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-7 h-7 text-primary" />
                 </div>
                 <h4 className="font-semibold text-lg mb-2 text-foreground">Kontakt</h4>
                 <p className="text-muted-foreground">07255 - 5121</p>
@@ -232,6 +260,29 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Google Maps Section */}
+      <section className="py-16 px-4 bg-background">
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-3xl font-bold text-center mb-8 text-foreground">So finden Sie uns</h3>
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-primary/20">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.8!2d8.4183!3d49.1847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797b5c5e7b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sHuttenheimer%20Str.%207%2C%2076706%20Dettenheim!5e0!3m2!1sde!2sde!4v1706000000000!5m2!1sde!2sde"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Standort Gaststätte Alte Brauerei"
+              className="w-full"
+            />
+          </div>
+          <p className="text-center text-muted-foreground mt-4">
+            Huttenheimer Str. 7, 76706 Dettenheim (Rußheim)
+          </p>
         </div>
       </section>
 
