@@ -53,7 +53,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl ring-4 ring-amber-500/20">
-                  <img src={haehnchenTeller} alt="Frittiertes halbes Hähnchen auf Teller" className="w-full h-full object-cover" />
+                  <img alt="Frittiertes halbes Hähnchen auf Teller" className="w-full h-full object-cover" src="/lovable-uploads/3473a4a6-1d58-4cc6-bd60-f1515c02ab0e.jpg" />
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-amber-500 text-amber-950 px-6 py-3 rounded-2xl shadow-xl">
                   <span className="text-2xl font-bold">Unsere Spezialität</span>
