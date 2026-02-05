@@ -177,30 +177,33 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold text-foreground mb-2">Über uns</h2>
-              <p className="text-xl text-amber-600 font-medium">Tradition aus der Region Karlsruhe & Bruchsal</p>
+              <p className="text-xl text-amber-600 font-medium">Eine Geschichte, die bleibt</p>
             </div>
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Unsere Geschichte reicht <strong className="text-foreground">146 Jahre</strong> zurück. Was einst mit selbst gebrautem Bier und eigener Ausschank begann, trägt seit <strong className="text-foreground">99 Jahren</strong> den Namen Alte Brauerei – und steht bis heute für Beständigkeit und handwerkliche Tradition.
+                Unsere Geschichte begann vor <strong className="text-foreground">146 Jahren</strong>. Damals wurde hier Bier noch selbst gebraut und ausgeschenkt – mit Handwerk, Zeit und Leidenschaft. Vor <strong className="text-foreground">99 Jahren</strong> bekam dieses Haus seinen Namen: die Alte Brauerei. Ein Name, der geblieben ist, weil die Haltung dahinter geblieben ist.
               </p>
               
               <p>
-                Als Restaurant für Karlsruhe, Bruchsal und Umgebung legen wir Wert auf ehrliche Küche und Verlässlichkeit. Ein fester Bestandteil unserer Speisekarte ist unser <strong className="text-foreground">Hähnchen nach Originalrezept</strong>, das wir seit <strong className="text-foreground">66 Jahren</strong> ohne grundlegende Veränderungen zubereiten.
+                Seit <strong className="text-foreground">66 Jahren</strong> gehört unser <strong className="text-foreground">Hähnchen nach Originalrezept</strong> zu dem, was uns ausmacht. Die Rezeptur wurde über Generationen weitergegeben und ohne grundlegende Veränderungen bewahrt. Weil guter Geschmack keine Trends braucht.
               </p>
               
               <p>
-                Auch in herausfordernden Zeiten haben wir unseren Betrieb im Rahmen der jeweiligen Möglichkeiten aufrechterhalten. Für unsere Gäste aus der Region bedeutet das Kontinuität, Erfahrung und ein Restaurant, auf das man sich verlassen kann.
+                Was uns besonders am Herzen liegt, ist Verlässlichkeit. Über einen Zeitraum von <strong className="text-foreground">33 Jahren</strong> hinweg gab es keine krisenbedingten Schließungen. Auch in herausfordernden Zeiten waren wir für unsere Gäste da – abgesehen von den wenigen, ganz normalen Pausen, die ein Familienbetrieb braucht.
               </p>
               
               <p>
-                Die Alte Brauerei ist mehr als ein Restaurant. Sie ist ein Ort für Menschen aus Karlsruhe, Bruchsal und der Umgebung, die Wert auf Qualität, Geschichte und eine gewachsene Gastronomiekultur legen.
+                Die Alte Brauerei ist mehr als ein Restaurant. Sie ist ein Ort für Menschen aus Karlsruhe, Bruchsal und der Umgebung, die sich willkommen fühlen wollen, die ehrliche Küche schätzen und die wissen, dass Tradition nicht laut sein muss, um echt zu sein.
+              </p>
+              
+              <p className="text-foreground font-medium">
+                Wer bei uns einkehrt, spürt nicht nur Geschichte. Man spürt Beständigkeit, Sorgfalt und ein Stück Zuhause.
               </p>
             </div>
             
             <div className="text-center mt-10">
-              <p className="text-xl font-semibold text-foreground mb-1">Willkommen in der Alten Brauerei.</p>
-              <p className="text-xl font-semibold text-amber-600">Willkommen bei gelebter Tradition.</p>
+              <p className="text-2xl font-semibold text-amber-600">Willkommen in der Alten Brauerei.</p>
             </div>
             
             <div className="flex flex-wrap justify-center gap-6 mt-10">
