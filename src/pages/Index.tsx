@@ -36,8 +36,8 @@ const Index = () => {
             Gaststätte Alte Brauerei
           </p>
           <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
-          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto">- Traditionsrestaurant seit 146 Jahren -  
- Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</p>
+          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto text-center">- Traditionsrestaurant seit 146 Jahren -    
+Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+4917647289436" aria-label="Jetzt anrufen: 0176 47289436">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8">
