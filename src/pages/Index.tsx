@@ -36,9 +36,8 @@ const Index = () => {
             Gaststätte Alte Brauerei
           </p>
           <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
-          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto">
-            Traditionsrestaurant seit 146 Jahren – Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept
-          </p>
+          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto">- Traditionsrestaurant seit 99 Jahren -
+ Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+4917647289436" aria-label="Jetzt anrufen: 0176 47289436">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8">
@@ -63,12 +62,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl ring-4 ring-amber-500/20">
-                  <img 
-                    src="/lovable-uploads/3473a4a6-1d58-4cc6-bd60-f1515c02ab0e.jpg" 
-                    alt="Knuspriges halbes Hähnchen – Spezialität der Alten Brauerei Rußheim, beliebtes Restaurant bei Karlsruhe und Bruchsal" 
-                    className="w-full h-full object-cover"
-                    loading="eager"
-                  />
+                  <img src="/lovable-uploads/3473a4a6-1d58-4cc6-bd60-f1515c02ab0e.jpg" alt="Knuspriges halbes Hähnchen – Spezialität der Alten Brauerei Rußheim, beliebtes Restaurant bei Karlsruhe und Bruchsal" className="w-full h-full object-cover" loading="eager" />
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-amber-500 text-amber-950 px-6 py-3 rounded-2xl shadow-xl">
                   <span className="text-2xl font-bold">Unsere Spezialität</span>
@@ -102,12 +96,7 @@ const Index = () => {
         <section className="py-12 px-4 bg-muted/30">
           <div className="max-w-6xl mx-auto">
             <div className="rounded-3xl overflow-hidden shadow-xl">
-              <img 
-                src="/lovable-uploads/862d4e15-675b-4303-882f-2ff6aec3c54e.png" 
-                alt="Frisch frittierte Hähnchen in der Küche – Traditionsrestaurant Alte Brauerei zwischen Karlsruhe und Bruchsal" 
-                className="w-full h-80 object-cover"
-                loading="lazy"
-              />
+              <img src="/lovable-uploads/862d4e15-675b-4303-882f-2ff6aec3c54e.png" alt="Frisch frittierte Hähnchen in der Küche – Traditionsrestaurant Alte Brauerei zwischen Karlsruhe und Bruchsal" className="w-full h-80 object-cover" loading="lazy" />
             </div>
             <p className="text-center text-muted-foreground mt-4 text-lg">Frisch aus unserer Küche – für Gäste aus Karlsruhe, Bruchsal, Germersheim und Umgebung</p>
           </div>
