@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import SpanferkelPopup from "@/components/SpanferkelPopup";
 import AnimatedSection from "@/components/AnimatedSection";
+import FloatingReserveButton from "@/components/FloatingReserveButton";
 import gebaeude from "@/assets/gebaeude.jpeg";
 import haehnchenTeller from "@/assets/haehnchen-teller.jpeg";
 import haehnchenKueche from "@/assets/haehnchen-kueche.jpeg";
@@ -11,6 +12,7 @@ import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       <SpanferkelPopup />
+      <FloatingReserveButton />
       
       {/* Hidden SEO Content - Screen Reader Only */}
       <h1 className="sr-only">Restaurant Alte Brauerei Rußheim – Hähnchen & Schnitzel Restaurant bei Karlsruhe, Bruchsal und Germersheim</h1>
@@ -36,8 +38,10 @@ const Index = () => {
             Gaststätte Alte Brauerei
           </p>
           <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
-          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto text-center">- Traditionsrestaurant seit 146 Jahren -    
-Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</p>
+          <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto text-center">
+            <span className="block mb-2">– Traditionsrestaurant seit 146 Jahren –</span>
+            <span className="block">Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</span>
+          </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+4917647289436" aria-label="Jetzt anrufen: 0176 47289436">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8">
@@ -342,12 +346,15 @@ Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</p>
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-2xl font-bold text-amber-50 mb-2">Gaststätte Alte Brauerei</p>
           <p className="text-amber-300/70 mb-4">Traditionsrestaurant in Rußheim · Hähnchen, Schnitzel & badische Küche · Karlsruhe, Bruchsal, Germersheim</p>
-          <div className="flex justify-center gap-4 mb-6">
-            <a href="https://www.facebook.com/profile.php?id=61586271661073" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-amber-800/50 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors" aria-label="Facebook">
-              <Facebook className="w-5 h-5 text-amber-100" />
+          <p className="text-amber-300/80 text-sm mb-4">Folgen Sie uns auf Social Media</p>
+          <div className="flex justify-center gap-5 mb-6">
+            <a href="https://www.facebook.com/profile.php?id=61586271661073" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 px-5 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" aria-label="Facebook">
+              <Facebook className="w-6 h-6 text-white" />
+              <span className="text-white font-medium">Facebook</span>
             </a>
-            <a href="https://www.instagram.com/_altebrauerei/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-amber-800/50 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors" aria-label="Instagram">
-              <Instagram className="w-5 h-5 text-amber-100" />
+            <a href="https://www.instagram.com/_altebrauerei/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 hover:from-pink-400 hover:via-purple-400 hover:to-orange-300 px-5 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" aria-label="Instagram">
+              <Instagram className="w-6 h-6 text-white" />
+              <span className="text-white font-medium">Instagram</span>
             </a>
           </div>
           <nav aria-label="Fußzeilen-Navigation" className="mb-6">
