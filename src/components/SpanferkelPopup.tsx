@@ -7,6 +7,13 @@ const SpanferkelPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    // Don't show popup after March 2nd, 2026
+    const expirationDate = new Date("2026-03-02");
+    const today = new Date();
+    if (today >= expirationDate) {
+      return;
+    }
+
     const hasSeenPopup = localStorage.getItem("spanferkel-popup-seen");
     if (!hasSeenPopup) {
       // Small delay for better UX
