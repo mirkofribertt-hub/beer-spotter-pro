@@ -11,40 +11,50 @@ import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       <SpanferkelPopup />
+      
+      {/* Hidden SEO Content - Screen Reader Only */}
+      <h1 className="sr-only">Restaurant Alte Brauerei Rußheim – Hähnchen & Schnitzel Restaurant bei Karlsruhe, Bruchsal und Germersheim</h1>
+      <p className="sr-only">
+        Traditionsrestaurant seit 146 Jahren in Rußheim, Dettenheim. Knusprige halbe Hähnchen nach 66 Jahre altem Originalrezept, 
+        Schnitzel, Chicken Wings und badische Küche. Familiengeführtes Restaurant zwischen Karlsruhe und Bruchsal. 
+        Auch beliebt bei Gästen aus Germersheim, Philippsburg, Graben-Neudorf, Linkenheim-Hochstetten und Speyer. 
+        Alle Speisen zum Mitnehmen. Deutsches Restaurant mit gutbürgerlicher Küche.
+      </p>
+      
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+      <header className="relative min-h-[80vh] flex items-center justify-center overflow-hidden" role="banner">
         <div className="absolute inset-0 bg-cover bg-center" style={{
         backgroundImage: `url(${gebaeude})`
-      }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+      }} aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" aria-hidden="true" />
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
+            <Star className="w-4 h-4 text-amber-400 fill-amber-400" aria-hidden="true" />
             <span className="text-amber-200 text-sm font-medium">4,5 Sterne · 110 Bewertungen</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-amber-50 mb-4 tracking-tight drop-shadow-lg">
+          <p className="text-5xl md:text-7xl font-bold text-amber-50 mb-4 tracking-tight drop-shadow-lg" role="heading" aria-level={2}>
             Gaststätte Alte Brauerei
-          </h1>
-          <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim</p>
+          </p>
+          <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
           <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto">
-            Tradition trifft Geschmack – Berühmt für unsere knusprigen halben Hähnchen
+            Traditionsrestaurant seit 146 Jahren – Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+4917647289436">
+            <a href="tel:+4917647289436" aria-label="Jetzt anrufen: 0176 47289436">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8">
-                <Phone className="w-5 h-5 mr-2" />
+                <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
                 Jetzt anrufen
               </Button>
             </a>
-            <a href="#speisekarte">
+            <a href="#speisekarte" aria-label="Zur Speisekarte mit Hähnchen, Schnitzel und mehr">
               <Button size="lg" variant="outline" className="border-primary/50 text-foreground hover:bg-primary/20 text-lg px-8">
                 Speisekarte ansehen
               </Button>
             </a>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-      </section>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" aria-hidden="true" />
+      </header>
 
       {/* Specialty Section */}
       <AnimatedSection>
@@ -53,7 +63,12 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl ring-4 ring-amber-500/20">
-                  <img alt="Frittiertes halbes Hähnchen auf Teller" className="w-full h-full object-cover" src="/lovable-uploads/3473a4a6-1d58-4cc6-bd60-f1515c02ab0e.jpg" />
+                  <img 
+                    src="/lovable-uploads/3473a4a6-1d58-4cc6-bd60-f1515c02ab0e.jpg" 
+                    alt="Knuspriges halbes Hähnchen – Spezialität der Alten Brauerei Rußheim, beliebtes Restaurant bei Karlsruhe und Bruchsal" 
+                    className="w-full h-full object-cover"
+                    loading="eager"
+                  />
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-amber-500 text-amber-950 px-6 py-3 rounded-2xl shadow-xl">
                   <span className="text-2xl font-bold">Unsere Spezialität</span>
@@ -87,23 +102,29 @@ const Index = () => {
         <section className="py-12 px-4 bg-muted/30">
           <div className="max-w-6xl mx-auto">
             <div className="rounded-3xl overflow-hidden shadow-xl">
-              <img alt="Frisch frittierte Hähnchen in der Küche" className="w-full h-80 object-cover" src="/lovable-uploads/862d4e15-675b-4303-882f-2ff6aec3c54e.png" />
+              <img 
+                src="/lovable-uploads/862d4e15-675b-4303-882f-2ff6aec3c54e.png" 
+                alt="Frisch frittierte Hähnchen in der Küche – Traditionsrestaurant Alte Brauerei zwischen Karlsruhe und Bruchsal" 
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
             </div>
-            <p className="text-center text-muted-foreground mt-4 text-lg">Frisch aus unserer Küche – für Sie zubereitet</p>
+            <p className="text-center text-muted-foreground mt-4 text-lg">Frisch aus unserer Küche – für Gäste aus Karlsruhe, Bruchsal, Germersheim und Umgebung</p>
           </div>
         </section>
       </AnimatedSection>
 
       {/* Speisekarte Section */}
       <AnimatedSection>
-        <section id="speisekarte" className="py-20 px-4 bg-background">
+        <section id="speisekarte" className="py-20 px-4 bg-background" aria-label="Speisekarte">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 text-amber-600 mb-4">
-                <UtensilsCrossed className="w-5 h-5" />
+                <UtensilsCrossed className="w-5 h-5" aria-hidden="true" />
                 <span className="font-semibold uppercase tracking-wider text-sm">Preisliste</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">Unsere Speisekarte</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground">Speisekarte – Hähnchen, Schnitzel & mehr</h2>
+              <p className="sr-only">Speisekarte des Restaurants Alte Brauerei in Rußheim bei Karlsruhe. Halbe Hähnchen, Schnitzel, Chicken Wings und badische Küche. Alle Gerichte zum Mitnehmen verfügbar für Gäste aus Karlsruhe, Bruchsal, Germersheim und Umgebung.</p>
             </div>
 
             {/* Hähnchen Gerichte */}
@@ -223,16 +244,16 @@ const Index = () => {
 
       {/* Gallery Section */}
       <AnimatedSection>
-        <section className="py-20 px-4 bg-background">
+        <section className="py-20 px-4 bg-background" aria-label="Bilder unseres Restaurants">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Unser Lokal</h3>
+            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Unser Restaurant bei Karlsruhe</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="rounded-2xl overflow-hidden shadow-lg">
-                <img src={gastraum} alt="Gemütlicher Gastraum" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src={gastraum} alt="Gemütlicher Gastraum im Restaurant Alte Brauerei – Familienrestaurant zwischen Karlsruhe und Bruchsal" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
                 <p className="text-center py-3 bg-muted text-muted-foreground font-medium">Gemütlicher Gastraum</p>
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg">
-                <img src={terrasse} alt="Sonnige Terrasse" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src={terrasse} alt="Sonnige Terrasse der Gaststätte Alte Brauerei – Deutsches Restaurant in Rußheim nahe Germersheim" className="w-full h-72 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
                 <p className="text-center py-3 bg-muted text-muted-foreground font-medium">Sonnige Terrasse</p>
               </div>
             </div>
@@ -241,9 +262,9 @@ const Index = () => {
       </AnimatedSection>
       {/* Info Cards */}
       <AnimatedSection>
-        <section className="py-16 px-4 bg-muted/50">
+        <section className="py-16 px-4 bg-muted/50" aria-label="Kontakt und Öffnungszeiten">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Besuchen Sie uns</h3>
+            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">Restaurant besuchen – nur 15 Min. von Karlsruhe & Bruchsal</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="bg-card border-primary/20 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">
@@ -321,17 +342,17 @@ const Index = () => {
             }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Standort Gaststätte Alte Brauerei" className="w-full" />
             </div>
             <p className="text-center text-muted-foreground mt-4">
-              Huttenheimer Str. 7, 76706 Dettenheim (Rußheim)
+              Huttenheimer Str. 7, 76706 Dettenheim (Rußheim) – Zwischen Karlsruhe, Bruchsal und Germersheim
             </p>
           </div>
         </section>
       </AnimatedSection>
 
       {/* Footer */}
-      <footer className="bg-amber-950 text-amber-200 py-12 px-4">
+      <footer className="bg-amber-950 text-amber-200 py-12 px-4" role="contentinfo">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-amber-50 mb-2">Gaststätte Alte Brauerei</h2>
-          <p className="text-amber-300/70 mb-4">in Rußheim · Traditionelle badische Küche</p>
+          <p className="text-2xl font-bold text-amber-50 mb-2">Gaststätte Alte Brauerei</p>
+          <p className="text-amber-300/70 mb-4">Traditionsrestaurant in Rußheim · Hähnchen, Schnitzel & badische Küche · Karlsruhe, Bruchsal, Germersheim</p>
           <div className="flex justify-center gap-4 mb-6">
             <a href="https://www.facebook.com/profile.php?id=61586271661073" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-amber-800/50 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors" aria-label="Facebook">
               <Facebook className="w-5 h-5 text-amber-100" />
@@ -340,7 +361,15 @@ const Index = () => {
               <Instagram className="w-5 h-5 text-amber-100" />
             </a>
           </div>
-          <p className="text-amber-400/50 text-sm">© 2024 Gaststätte Alte Brauerei Rußheim. Alle Rechte vorbehalten.</p>
+          <nav aria-label="Fußzeilen-Navigation" className="mb-6">
+            <ul className="flex flex-wrap justify-center gap-4 text-sm text-amber-300/70">
+              <li><a href="#speisekarte" className="hover:text-amber-200 transition-colors">Speisekarte</a></li>
+              <li><span aria-hidden="true">·</span></li>
+              <li><a href="tel:+497255512" className="hover:text-amber-200 transition-colors">Anrufen</a></li>
+            </ul>
+          </nav>
+          <p className="text-amber-400/50 text-sm">© 2025 Gaststätte Alte Brauerei Rußheim. Hähnchen Restaurant bei Karlsruhe, Bruchsal und Germersheim. Alle Rechte vorbehalten.</p>
+          <p className="sr-only">Restaurant Alte Brauerei – Deutsches Traditionsrestaurant mit Hähnchen und Schnitzel. Beliebtes Familienrestaurant für Gäste aus Karlsruhe, Bruchsal, Germersheim, Philippsburg, Graben-Neudorf, Linkenheim-Hochstetten, Speyer und Umgebung. Gutbürgerliche Küche zum Mitnehmen.</p>
         </div>
       </footer>
     </div>;
