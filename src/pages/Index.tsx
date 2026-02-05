@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone, Star, Utensils, UtensilsCrossed, Flame } from "lucide-react";
+import { Clock, MapPin, Phone, Star, Utensils, UtensilsCrossed, Flame, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import SpanferkelPopup from "@/components/SpanferkelPopup";
@@ -308,7 +308,27 @@ const Index = () => {
       <footer className="bg-amber-950 text-amber-200 py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-amber-50 mb-2">Gaststätte Alte Brauerei</h2>
-          <p className="text-amber-300/70 mb-6">in Rußheim · Traditionelle badische Küche</p>
+          <p className="text-amber-300/70 mb-4">in Rußheim · Traditionelle badische Küche</p>
+          <div className="flex justify-center gap-4 mb-6">
+            <a 
+              href="https://www.facebook.com/profile.php?id=61586271661073" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-amber-800/50 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-5 h-5 text-amber-100" />
+            </a>
+            <a 
+              href="https://www.instagram.com/_altebrauerei/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-amber-800/50 hover:bg-amber-700 rounded-full flex items-center justify-center transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-5 h-5 text-amber-100" />
+            </a>
+          </div>
           <p className="text-amber-400/50 text-sm">© 2024 Gaststätte Alte Brauerei Rußheim. Alle Rechte vorbehalten.</p>
         </div>
       </footer>
