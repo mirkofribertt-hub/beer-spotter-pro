@@ -14,7 +14,7 @@ const SpanferkelPopup = () => {
       return;
     }
 
-    const hasSeenPopup = localStorage.getItem("spanferkel-popup-seen");
+    const hasSeenPopup = sessionStorage.getItem("spanferkel-popup-seen");
     if (!hasSeenPopup) {
       // Small delay for better UX
       const timer = setTimeout(() => {
@@ -26,7 +26,7 @@ const SpanferkelPopup = () => {
 
   const handleClose = () => {
     setIsOpen(false);
-    localStorage.setItem("spanferkel-popup-seen", "true");
+    sessionStorage.setItem("spanferkel-popup-seen", "true");
   };
 
   return (
