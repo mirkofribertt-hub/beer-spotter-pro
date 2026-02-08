@@ -165,6 +165,7 @@ const Index = () => {
 
             <p className="text-center text-muted-foreground text-sm">Preise inklusive Mehrwertsteuer</p>
             <p className="text-center text-amber-600 font-semibold text-lg mt-4">Alle Speisen zum Mitnehmen!</p>
+            <p className="text-center text-muted-foreground/60 text-xs mt-2">* Alle angegebenen Preise gelten für Außer-Haus-Verkauf. Bei Verzehr im Restaurant können die Preise abweichen.</p>
           </div>
         </section>
       </AnimatedSection>
