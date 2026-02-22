@@ -14,19 +14,15 @@ const SpanferkelPopup = () => {
       return;
     }
 
-    const hasSeenPopup = sessionStorage.getItem("spanferkel-popup-seen");
-    if (!hasSeenPopup) {
-      // Small delay for better UX
-      const timer = setTimeout(() => {
-        setIsOpen(true);
-      }, 500);
-      return () => clearTimeout(timer);
-    }
+    // Show popup on every page load
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 500);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleClose = () => {
     setIsOpen(false);
-    sessionStorage.setItem("spanferkel-popup-seen", "true");
   };
 
   return (
