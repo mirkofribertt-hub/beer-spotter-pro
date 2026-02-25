@@ -1,7 +1,7 @@
 import { Clock, MapPin, Phone, Star, Utensils, UtensilsCrossed, Flame, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import SpanferkelPopup from "@/components/SpanferkelPopup";
+
 import AnimatedSection from "@/components/AnimatedSection";
 import FloatingReserveButton from "@/components/FloatingReserveButton";
 import gebaeude from "@/assets/gebaeude.jpeg";
@@ -11,7 +11,7 @@ import terrasse from "@/assets/terrasse.jpeg";
 import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
-      <SpanferkelPopup />
+      
       <FloatingReserveButton />
       
       {/* Hidden SEO Content - Screen Reader Only */}
