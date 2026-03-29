@@ -41,7 +41,7 @@ const Index = () => {
           </p>
           <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
           <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto text-center">
-            <span className="block mb-2">– Traditionsrestaurant seit 146 Jahren –</span>
+            <span className="block mb-2">– Traditionsrestaurant seit 1960 Jahren –</span>
             <span className="block">Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</span>
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
