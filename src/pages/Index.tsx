@@ -128,7 +128,7 @@ const Index = () => {
               <div className="space-y-4">
                 <MenuItem name="½ Hähnchen" badge="Unsere Spezialität" price="9,00 €" />
                 <MenuItem name="Extra-Schärfe" description="Mittel oder Chilli" price="+ 0,50 €" isNew />
-                <MenuItem name="Hähnchenschlegel" price="5,50 €" />
+                
                 <MenuItem name="Hähnchen-Nuggets" description="8 Stück" price="6,00 €" />
                 <MenuItem name="Chicken Wings" description="8 Stück" price="8,50 €" isNew />
                 <MenuItem name="Hähnchen Cordon bleu" description="2 Stück" price="10,00 €" />
