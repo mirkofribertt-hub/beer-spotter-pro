@@ -13,6 +13,7 @@ import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       
+      <SpanferkelPopup />
       <FloatingReserveButton />
       
       {/* Hidden SEO Content - Screen Reader Only */}
