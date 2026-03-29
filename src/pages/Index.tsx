@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 import AnimatedSection from "@/components/AnimatedSection";
 import FloatingReserveButton from "@/components/FloatingReserveButton";
+import SpanferkelPopup from "@/components/SpanferkelPopup";
 import gebaeude from "@/assets/gebaeude.jpeg";
 import haehnchenTeller from "@/assets/haehnchen-teller.jpeg";
 import haehnchenKueche from "@/assets/haehnchen-kueche.jpeg";
