@@ -41,7 +41,7 @@ const Index = () => {
           </p>
           <p className="text-2xl md:text-3xl text-amber-200 font-light mb-2">in Rußheim · bei Karlsruhe & Bruchsal</p>
           <p className="text-amber-300/90 text-lg mt-6 max-w-2xl mx-auto text-center">
-            <span className="block mb-2">– Traditionsrestaurant seit 1960 Jahren –</span>
+            <span className="block mb-2">– Traditionsrestaurant seit 1960 –</span>
             <span className="block">Berühmt für unsere knusprigen halben Hähnchen nach Originalrezept</span>
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -199,15 +199,15 @@ const Index = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Unsere Geschichte begann vor <strong className="text-foreground">146 Jahren</strong>. Damals wurde hier Bier noch selbst gebraut und ausgeschenkt – mit Handwerk, Zeit und Leidenschaft. Vor <strong className="text-foreground">99 Jahren</strong> bekam dieses Haus seinen Namen: die Alte Brauerei. Ein Name, der geblieben ist, weil die Haltung dahinter geblieben ist.
+                Unsere Geschichte begann <strong className="text-foreground">1880</strong>. Damals wurde hier Bier noch selbst gebraut und ausgeschenkt – mit Handwerk, Zeit und Leidenschaft. <strong className="text-foreground">1927</strong> bekam dieses Haus seinen Namen: die Alte Brauerei. Ein Name, der geblieben ist, weil die Haltung dahinter geblieben ist.
               </p>
               
               <p>
-                Seit <strong className="text-foreground">66 Jahren</strong> gehört unser <strong className="text-foreground">Hähnchen nach Originalrezept</strong> zu dem, was uns ausmacht. Die Rezeptur wurde über Generationen weitergegeben und ohne grundlegende Veränderungen bewahrt. Weil guter Geschmack keine Trends braucht.
+                Seit <strong className="text-foreground">1960</strong> gehört unser <strong className="text-foreground">Hähnchen nach Originalrezept</strong> zu dem, was uns ausmacht. Die Rezeptur wurde über Generationen weitergegeben und ohne grundlegende Veränderungen bewahrt. Weil guter Geschmack keine Trends braucht.
               </p>
               
               <p>
-                Was uns besonders am Herzen liegt, ist Verlässlichkeit. Über einen Zeitraum von <strong className="text-foreground">33 Jahren</strong> hinweg gab es keine krisenbedingten Schließungen. Auch in herausfordernden Zeiten waren wir für unsere Gäste da – abgesehen von den wenigen, ganz normalen Pausen, die ein Familienbetrieb braucht.
+                Was uns besonders am Herzen liegt, ist Verlässlichkeit. Seit <strong className="text-foreground">1993</strong> gab es keine krisenbedingten Schließungen. Auch in herausfordernden Zeiten waren wir für unsere Gäste da – abgesehen von den wenigen, ganz normalen Pausen, die ein Familienbetrieb braucht.
               </p>
               
               <p>
