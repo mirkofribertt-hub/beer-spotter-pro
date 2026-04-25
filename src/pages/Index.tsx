@@ -19,7 +19,7 @@ const Index = () => {
       {/* Hidden SEO Content - Screen Reader Only */}
       <h1 className="sr-only">Restaurant Alte Brauerei Rußheim – Hähnchen & Schnitzel Restaurant bei Karlsruhe, Bruchsal und Germersheim</h1>
       <p className="sr-only">
-        Traditionsrestaurant seit 146 Jahren in Rußheim, Dettenheim. Knusprige halbe Hähnchen nach 66 Jahre altem Originalrezept, 
+        Traditionsrestaurant seit 1880 in Rußheim, Dettenheim. Knusprige halbe Hähnchen nach Originalrezept von 1960, 
         Schnitzel, Chicken Wings und badische Küche. Familiengeführtes Restaurant zwischen Karlsruhe und Bruchsal. 
         Auch beliebt bei Gästen aus Germersheim, Philippsburg, Graben-Neudorf, Linkenheim-Hochstetten und Speyer. 
         Alle Speisen zum Mitnehmen. Deutsches Restaurant mit gutbürgerlicher Küche.
