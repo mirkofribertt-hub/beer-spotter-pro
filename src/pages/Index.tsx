@@ -366,7 +366,7 @@ const Index = () => {
               <li><a href="tel:+497255512" className="hover:text-amber-200 transition-colors">Anrufen</a></li>
             </ul>
           </nav>
-          <p className="text-amber-400/50 text-sm">© 2025 Gaststätte Alte Brauerei Rußheim. Hähnchen Restaurant bei Karlsruhe, Bruchsal und Germersheim. Alle Rechte vorbehalten.</p>
+          <p className="text-amber-400/50 text-sm">© 1960 Gaststätte Alte Brauerei Rußheim. Hähnchen Restaurant bei Karlsruhe, Bruchsal und Germersheim. Alle Rechte vorbehalten.</p>
           <p className="sr-only">Restaurant Alte Brauerei – Deutsches Traditionsrestaurant mit Hähnchen und Schnitzel. Beliebtes Familienrestaurant für Gäste aus Karlsruhe, Bruchsal, Germersheim, Philippsburg, Graben-Neudorf, Linkenheim-Hochstetten, Speyer und Umgebung. Gutbürgerliche Küche zum Mitnehmen.</p>
         </div>
       </footer>
