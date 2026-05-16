@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://altebrauerei-russheim.de/sitemap.xml
+Sitemap: https://www.altebrauerei-russheim.de/sitemap.xml
