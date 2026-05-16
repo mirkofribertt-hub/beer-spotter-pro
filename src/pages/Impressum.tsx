@@ -39,12 +39,18 @@ const Impressum = () => {
               Telefon: <a href="tel:+4972555121" className="hover:text-amber-300">07255 5121</a>
               <br />
               Mobil: <a href="tel:+4917647289436" className="hover:text-amber-300">0176 47289436</a>
+              <br />
+              E-Mail: <a href="mailto:luka.majstorovic@hotmail.de" className="hover:text-amber-300">luka.majstorovic@hotmail.de</a>
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold text-amber-300 mb-2">Steuernummer</h2>
-            <p>3040731284</p>
+            <h2 className="text-xl font-semibold text-amber-300 mb-2">Umsatzsteuer-ID</h2>
+            <p>
+              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+              <br />
+              DE3040731284
+            </p>
           </div>
 
           <div>
