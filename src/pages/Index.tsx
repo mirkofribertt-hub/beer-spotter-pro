@@ -364,6 +364,10 @@ const Index = () => {
               <li><a href="#speisekarte" className="hover:text-amber-200 transition-colors">Speisekarte</a></li>
               <li><span aria-hidden="true">·</span></li>
               <li><a href="tel:+497255512" className="hover:text-amber-200 transition-colors">Anrufen</a></li>
+              <li><span aria-hidden="true">·</span></li>
+              <li><a href="/impressum" className="hover:text-amber-200 transition-colors">Impressum</a></li>
+              <li><span aria-hidden="true">·</span></li>
+              <li><a href="/datenschutz" className="hover:text-amber-200 transition-colors">Datenschutz</a></li>
             </ul>
           </nav>
           <p className="text-amber-400/50 text-sm">© 1960 Gaststätte Alte Brauerei Rußheim. Hähnchen Restaurant bei Karlsruhe, Bruchsal und Germersheim. Alle Rechte vorbehalten.</p>
