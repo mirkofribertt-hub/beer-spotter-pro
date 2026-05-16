@@ -1,0 +1,14 @@
+# Gaststätte Alte Brauerei Rußheim
+
+> Traditionsrestaurant seit 1880 in Rußheim (Dettenheim) bei Karlsruhe. Bekannt für knusprige halbe Hähnchen nach Originalrezept von 1960, Schnitzel und badische Küche. Alle Speisen auch zum Mitnehmen. Zahlung ausschließlich in bar.
+
+Familiengeführtes Restaurant zwischen Karlsruhe, Bruchsal und Germersheim. Adresse: Huttenheimer Str. 7, 76706 Dettenheim-Rußheim. Telefon: 07255 5121 oder 0176 47289436. Reservierungen empfohlen, private Veranstaltungen auf Anfrage.
+
+## Pages
+
+- [Startseite](/): Übersicht, Speisekarte, Geschichte, Öffnungszeiten und Kontakt der Alten Brauerei Rußheim.
+
+## Optional
+
+- [Speisekarte](/#speisekarte): Hähnchen-Spezialitäten, Schnitzel, Beilagen und Getränke (Online-Preise gelten für Takeout).
+- [Kontakt & Reservierung](/#kontakt): Telefon, Adresse, Google Maps und Reservierungsanfrage.
