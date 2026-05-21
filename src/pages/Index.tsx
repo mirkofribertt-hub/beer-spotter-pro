@@ -281,11 +281,11 @@ const Index = () => {
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Sonntag</span>
-                      <span className="text-foreground">11:30 – 21:00</span>
+                      <span className="text-foreground">11:30 – 22:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Montag</span>
-                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
+                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–22:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Dienstag</span>
@@ -293,19 +293,19 @@ const Index = () => {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Mittwoch</span>
-                      <span className="text-foreground">17:00 – 21:00</span>
+                      <span className="text-foreground">17:00 – 22:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Donnerstag</span>
-                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
+                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–22:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Freitag</span>
-                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
+                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–22:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Samstag</span>
-                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–21:00</span>
+                      <span className="text-foreground text-right text-xs">11:30–14:00, 17:00–22:00</span>
                     </div>
                   </div>
                 </CardContent>
