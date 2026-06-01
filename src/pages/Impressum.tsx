@@ -44,10 +44,6 @@ const Impressum = () => {
             </p>
           </div>
 
-          <div>
-            <h2 className="text-xl font-semibold text-amber-300 mb-2">Steuernummer</h2>
-            <p>3040731284</p>
-          </div>
 
           <div>
             <h2 className="text-xl font-semibold text-amber-300 mb-2">
