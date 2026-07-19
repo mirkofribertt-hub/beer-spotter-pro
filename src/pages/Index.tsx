@@ -363,7 +363,7 @@ const Index = () => {
             <ul className="flex flex-wrap justify-center gap-4 text-sm text-amber-300/70">
               <li><a href="#speisekarte" className="hover:text-amber-200 transition-colors">Speisekarte</a></li>
               <li><span aria-hidden="true">·</span></li>
-              <li><a href="tel:+497255512" className="hover:text-amber-200 transition-colors">Anrufen</a></li>
+              <li><a href="tel:+4972555121" className="hover:text-amber-200 transition-colors">Anrufen</a></li>
               <li><span aria-hidden="true">·</span></li>
               <li><a href="/impressum" className="hover:text-amber-200 transition-colors">Impressum</a></li>
               <li><span aria-hidden="true">·</span></li>
