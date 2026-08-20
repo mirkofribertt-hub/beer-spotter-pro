@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 import AnimatedSection from "@/components/AnimatedSection";
 import FloatingReserveButton from "@/components/FloatingReserveButton";
-import UrlaubPopup from "@/components/UrlaubPopup";
+
 
 import gebaeude from "@/assets/gebaeude.jpeg";
 import haehnchenTeller from "@/assets/haehnchen-teller.jpeg";
@@ -14,7 +14,6 @@ import gastraum from "@/assets/gastraum.jpeg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       
-      <UrlaubPopup />
       <FloatingReserveButton />
       
       {/* Hidden SEO Content - Screen Reader Only */}
