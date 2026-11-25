@@ -1,0 +1,3 @@
+# Architecture rules
+
+- Manage known-route titles, descriptions, canonical URLs, and social tags through PageMetadata inside a single HelmetProvider so navigation updates metadata consistently; retain homepage social fallbacks in index.html and no static canonical to avoid duplicates. Client-side tags do not provide route-specific previews to non-JavaScript crawlers; that requires server-delivered route HTML.
