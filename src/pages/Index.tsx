@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 import AnimatedSection from "@/components/AnimatedSection";
 import FloatingReserveButton from "@/components/FloatingReserveButton";
+import SilvesterPopup from "@/components/SilvesterPopup";
 
 
 import gebaeude from "@/assets/gebaeude.jpeg";
@@ -15,6 +16,7 @@ const Index = () => {
   return <div className="min-h-screen bg-background">
       
       <FloatingReserveButton />
+      <SilvesterPopup />
       
       {/* Hidden SEO Content - Screen Reader Only */}
       <h1 className="sr-only">Restaurant Alte Brauerei Rußheim – Hähnchen & Schnitzel Restaurant bei Karlsruhe, Bruchsal und Germersheim</h1>
